@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background: #f5f5f5;
+  position: relative;
+ }
+/* Barre de navigation */
+
+nav{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+nav h1{
+  font-size:20px;
+}
+nav .onglets{
+  display: flex;
+  flex-wrap:wrap;
+}
+nav .onglets p{
+  font-size: 17px;
+  margin-right: 10px;
+  cursor:pointer;
+}
+nav .onglets input{
+  margin: 8px 20px;
+  padding:15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+}
+nav .onglets a{
+  text-decoration: none;
+  color: #000;
+}
+/* Fin de la barre de navigation */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+
+.container .heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+.container .heading h3{
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+}
+
+.container .heading h3 span{
+  font-weight: 100;
+}
+.container .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.container .box .dream{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .dream img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.container .btn{
+  margin: 40px 0 70px 0;
+  background: #222;
+  padding: 15px 40px ;
+  border-radius: 5px;
+}
+
+.container .btn a{
+ color: #fff;
+ font-size: 1.2em;
+ text-decoration: none;
+ font-weight: bolder;
+ letter-spacing: 3px;
+}
+/*footer*/
+footer{
+  height: 150px;
+  background: white;
+  width: 100%;
+  position: absolute;
+  bottom: -200px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+}
+footer p{
+  margin: auto 20px;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+}
+footer .icons4{
+color: black;
+size: 100px;
+}
+
+/*fin footer*/
+
+@media only screen and (max-width: 769px){
+    .container .box{
+   flex-direction: column;
+  }
+
+.container .box .dream{
+  width: 100%;
+}
+
+
+
+
+
+
